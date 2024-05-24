@@ -23,7 +23,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 
-
 const val DEFAULT_MAX_LINES = 2
 
 @OptIn(ExperimentalLayoutApi::class)
