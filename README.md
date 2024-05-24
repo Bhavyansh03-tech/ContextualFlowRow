@@ -19,6 +19,12 @@ Note that it requires version 1.7.0-beta01 and will not work with earlier versio
 - Unlike traditional FlowRow that composes all items regardless of their visibility, ContextualFlowRow smartly limits composition to only those items that are visible within its constraints, such as maxLines or maxHeight.
 - This approach ensures optimal performance and resource utilization by composing fewer items than the total number available, based on the current context and display parameters.
 
+## Screenshots
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://github.com/Bhavyansh03-tech/ContextualFlowRow/assets/96388594/3bc4414b-058b-4b84-8e91-58f566d7625e" alt="First Flow Row" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/Bhavyansh03-tech/ContextualFlowRow/assets/96388594/4304fb7b-78a7-40af-a1aa-36c11555d0ed" alt="Second Flow Row" style="width: 200px; height: auto;">
+</div>
 
 ## Getting Started
 
@@ -138,12 +144,6 @@ fun RowFlow() {
     }
 }
 ```
-## Screenshots
-
-<div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://github.com/Bhavyansh03-tech/ContextualFlowRow/assets/96388594/3bc4414b-058b-4b84-8e91-58f566d7625e" alt="First Flow Row" style="width: 200px; height: auto; margin-right: 10px;">
-    <img src="https://github.com/Bhavyansh03-tech/ContextualFlowRow/assets/96388594/4304fb7b-78a7-40af-a1aa-36c11555d0ed" alt="Second Flow Row" style="width: 200px; height: auto;">
-</div>
 
 ## Code Snippet
 
